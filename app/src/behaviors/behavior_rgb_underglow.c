@@ -134,6 +134,7 @@ static const struct behavior_driver_api behavior_rgb_underglow_driver_api = {
         on_keymap_binding_convert_central_state_dependent_params,
     .binding_pressed = on_keymap_binding_pressed,
     .binding_released = on_keymap_binding_released,
+    .locality = BEHAVIOR_LOCALITY_GLOBAL,
 };
 
 DEVICE_AND_API_INIT(behavior_rgb_underglow, DT_INST_LABEL(0), behavior_rgb_underglow_init, NULL,
