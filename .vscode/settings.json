@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "*.overlay": "dts",
-    "*.keymap": "dts"
+    "*.keymap": "dts",
+    "rgb_underglow.h": "c",
+    "stdlib.h": "c"
   }
 }
