@@ -3,7 +3,7 @@ manifest:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/edmondhuang
   projects:
     - name: zephyr
       remote: zmkfirmware
