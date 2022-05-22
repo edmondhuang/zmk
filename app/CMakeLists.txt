@@ -63,7 +63,7 @@ if ((NOT CONFIG_ZMK_SPLIT) OR CONFIG_ZMK_SPLIT_BLE_ROLE_CENTRAL)
   target_sources(app PRIVATE src/keymap.c)
   target_sources(app PRIVATE src/events/layer_state_changed.c)
   target_sources(app PRIVATE src/events/modifiers_state_changed.c)
-  #target_sources(app PRIVATE src/events/keycode_state_changed.c)
+  target_sources(app PRIVATE src/events/keycode_state_changed.c)
 
   if (CONFIG_ZMK_BLE)
     target_sources(app PRIVATE src/events/ble_active_profile_changed.c)
